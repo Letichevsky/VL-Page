@@ -1,0 +1,41 @@
+.Welcome {
+    // background: #F3F3F3;
+    background-color: #EEF0F4;
+    width: 100svw;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 7rem;
+    margin-bottom: 5%;
+    background-color: none;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 4rem;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+    // text-transform: uppercase;
+    padding-bottom: 5rem;
+}
+
+.welcomeText {
+    max-width: 36rem;
+    margin: 0 auto;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+.About {
+    background-color: #333;
+    color: #f3f3f3;
+    h2 {
+        width: 100%;
+    }
+    h2, p {
+        color: #f3f3f3;
+        text-align: left;
+    }
+    width: 100vw;
+    height: 100vh;
+    .Arrow path {
+        stroke: #f3f3f3;
+    }
+
+
+.contentBox {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.halfBox {
+    width: 50%;
+}
+
+#leftBox {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+#rigthBox {
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secDescription strong {
+    font-weight: 700;
+    color: #f3f3f3;
+}
+}

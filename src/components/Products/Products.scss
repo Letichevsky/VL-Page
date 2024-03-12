@@ -1,0 +1,44 @@
+.contentSection {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.productsSectionTitle {
+    margin: 3rem 0 7rem 0;
+}
+
+.productsContentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding-bottom: 10rem;
+}
+
+.productsTitle {
+    font-weight: 600;
+    font-size: 2rem;
+    // margin-bottom: 2rem;
+}
+
+.productsDescription {
+    text-wrap: wrap;
+    font-size: 1.2rem;
+    text-wrap: wrap;
+    margin-bottom: 15rem;
+    text-align: center;
+}
+.productsTitleMobApp {
+    margin-bottom: 2rem;
+}
+
+.iphone {
+    height: 20rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,28 @@
+<svg class="svg-logo" width="168" height="217" viewBox="0 0 168 217" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .svg-logo {
+      stroke:rgba(255, 255, 255, 1);
+      stroke-width:4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill:none;
+      stroke-dasharray:100% 50%;
+      stroke-dashoffset:0%;
+      transition: 2s;
+      margin: 2px auto;
+      display:block;
+      animation: logo 8s ease-in-out infinite;
+      
+      background: black;
+    }
+    @keyframes logo {
+    50% {
+    stroke-dashoffset: 0%;
+    }
+    100% {
+    stroke-dashoffset: 150%;
+    }
+    } 
+  </style>
+<path d="M3.46429 2L43 107.019M63.5 54.5095L84 2M103.036 2V107.019M122.071 107.019H166M2 133.274H164.536M23.9643 160.987L33.4821 187.242M43 213.497L33.4821 187.242M33.4821 187.242H13.7143M3.46429 213.497H4.92857M63.5 160.987C63.5 160.987 103.036 158.945 103.036 174.114C103.036 189.284 78.1429 187.242 63.5 186.63L103.036 213.497M123.536 160.987H144.036V214.955M163.071 160.987H164.536M62.0357 213.497H63.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
